@@ -1,4 +1,4 @@
-FROM nginx:1.19.4
+FROM nginx:1.19.10-alpine
 WORKDIR /etc/nginx
 LABEL Description="BLOG46 Webserver - v1.0"
 ADD nginx.conf /etc/nginx
